@@ -4,14 +4,14 @@
 ranges_file: "ranges.txt"
 
 # VCF location and suffix (vcf path constructed as: vcf_dir / chrX + vcf_suffix)
-vcf_dir: "/DCEG/CGF/GWAS/Scans/Confluence/GSAv3Confluence/data_freeze_12162024/GSA/imputed_TOPMed/batches_merged"
-vcf_suffix: ".dose.merged.vcf.gz"
+vcf_dir: "/path/to/vcf"
+vcf_suffix: ".dose.vcf.gz"
 
-# Oxford .sample file. Can be a global file or a template with {CHR}, e.g. "/path/all_samples.sample" or "/path/chr{CHR}.sample"
+# Oxford SNPTEST .sample file e.g. "/path/all_samples.txt" 
 sample_file: "all_samples.txt"
 
-# Directory containing group files (e.g. AMR.txt, SAS.txt). Each file is one sample ID per line.
-sample_dir: "groups"
+# Directory containing group files (e.g. EUR.txt, Group1.txt). Each file is one sample ID per line.
+sample_dir: "/path/to/groups"
 sample_suffix: ".txt"
 
 # Whether to include an "ALL" (no-filter) jobs by default.
