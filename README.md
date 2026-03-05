@@ -75,7 +75,7 @@ If you are using a different imputation panel (e.g., 1000 Genomes, HRC, etc.),pl
 - Each file is named `<GROUP>.txt` (e.g. `EUR.txt`, `Project1.txt`, `male.txt`)
 - Each file contains **one sample ID per line**, exactly matching sample IDs in the VCF header
 
-Example `groups/AMR.txt`:
+Example `groups/EUR.txt`:
 ```
 NA12878
 NA12891
